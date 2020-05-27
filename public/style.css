@@ -1,0 +1,199 @@
+body {
+    font-family: "times new roman";
+}
+
+/*Home page Styling*/
+@media only screen and (max-width: 745px){
+    .mq {
+	height: 300px;
+}
+    .headings {
+	font-size: 32px;
+}
+}
+
+@media only screen and (max-width: 590px){
+    .mq {
+	height: 250px;
+}
+    .headings {
+	font-size: 24px;
+}
+    #marq {
+        font-size: 15px !important;
+}
+}
+
+@media only screen and (max-width: 991px){
+    .mar-top {
+        margin-top: 10px;
+    }
+    .mar-top-sp {
+        margin-top: 40px;
+    }
+    #txt-align {
+        text-align: center !important;
+        margin-top: 50px !important;
+    }
+    #align {
+        text-align: center !important;
+    }
+}
+
+.marq-link {
+	color: darkmagenta;
+    text-decoration: none;
+}
+
+.marq-link:hover {
+	color: darkgreen;
+}
+
+.marq-link:active {
+	color: deepskyblue;
+}
+
+@keyframes dropfadein {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.dropdown-menu {
+	animation-name: dropfadein;
+    animation-duration: 0.5s;
+}
+
+.headings {
+	font-weight: bold;
+    color: silver;
+}
+
+.brdr {
+    border-bottom: 1px solid;
+	border-color: moccasin;
+    border-bottom-style: dashed;
+}
+
+.hpara {
+	color: navajowhite;
+    font-size: 18px;
+    text-align: center;
+}
+
+#footer {
+	padding: 70px 0;
+    background-color: black !important;
+}
+
+#txt-align {
+	font-size: 18px;
+    font-weight: bold;
+    color: darkgray;
+    text-align: right;
+}
+
+#align {
+	margin-top: 20px;
+}
+
+.contact-us {
+	margin-right: 20px;
+    text-decoration: none !important;
+}
+
+.contact-links {
+	width: 30px !important;
+	height: 30px !important;
+    transition: all 0.1s ease;
+}
+
+@keyframes rotate{
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.contact-links:hover {
+    width: 40px !important;
+    height: 40px !important;
+	animation-name: rotate;
+    animation-duration: 0.4s;
+}
+
+#developer {
+	text-align: right;
+}
+
+@media only screen and (max-width: 767px){
+    #copyright {
+	text-align: center !important;
+}
+    #developer {
+	text-align: center !important;
+}
+}
+
+#shaz-khan {
+	color: blue;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.1s ease;
+}
+
+#shaz-khan:hover {
+    color: purple;
+}
+
+
+/*Desktops page styling*/
+.headings1 {
+	font-weight: bold;
+    color: Black;
+}
+
+.pic-hover {
+	transition: 0.1s ease;
+}
+
+.pic-hover:hover {
+	opacity: 80%;
+    width: 270px;
+    height: 170px;
+}
+
+/*Contact Us Page Styling*/
+#back-color {
+	background-color: lightsteelblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 575px){
+    .col-form-label {
+        text-align: left !important;
+}
+    #back-color {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+}
+}
+
+
+
+
+

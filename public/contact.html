@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/050cffa635.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+      <script defer src="fontawesome-free-5.13.0-web/js/all.js"></script>
+      <link rel="stylesheet" href="style.css">
+
+      <title>Zulfi Computers</title>
+  </head>
+  <body>
+      
+<!--      marquee-->
+          <marquee class="bg-light" id="marq" direction="left" scrollamount="5" onmouseover="stop()" onmouseout="start()" style="margin-bottom: -7px; font-size: 18px; font-weight: bold; color: #343A40;">
+          We are Welcoming you to the <a class="marq-link" href="index.html">ZULFI COMPUTERS</a>. For any type of information kindly contact us at <span style="color: darkblue">+92 341 2174213</span>.
+          </marquee>
+      
+<!--      Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom">
+          <a class="navbar-brand" href="index.html"><img src="pictures/home%20page%20pix/Zulfi%20computer.png" height="45px" width="90px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" style="text-align: center;">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Desktops
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="text-align: center;">
+                          <a class="dropdown-item" href="desktops.html#dell-desktop">Dell</a>
+                          <a class="dropdown-item" href="desktops.html#hp-desktop">Hp</a>
+                          <a class="dropdown-item" href="desktops.html#lenovo-desktop">Lenovo</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Laptops
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1" style="text-align: center;">
+                          <a class="dropdown-item" href="laptops.html#dell-laptops">Dell</a>
+                          <a class="dropdown-item" href="laptops.html#hp-laptops">Hp</a>
+                          <a class="dropdown-item" href="laptops.html#lenovo-laptops">Lenovo</a>
+                      </div>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+      
+<!--      Form-->
+      <div class="container-fluid bg-light" style="padding-top: 30px; padding-bottom: 30px;">
+          <div class="container" id="back-color">
+              <form method="get">
+                  <fieldset>
+                      <legend class="headings1 text-center">Feedback</legend>
+              
+                      <div  class="form-group row">
+                          <label class="font-weight-bolder col-form-label text-right col-lg-3 col-md-3 col-sm-3">* Required</label>
+                      </div>
+              
+                      <div class="form-group row">
+                          <label for="name" class="col-form-label text-right col-lg-3 col-md-3 col-sm-3">Name</label>
+                          <input id="name" class="form-control col-lg-6 col-md-6 col-sm-6" type="text" placeholder="Enter Your Name">
+                      </div>
+              
+                      <div class="form-group row">    
+                          <label for="email" class="col-form-label text-right col-lg-3 col-md-3 col-sm-3">Email*</label>
+                          <input id="email" class="form-control col-lg-6 col-md-6 col-sm-6" type="email" placeholder="Enter Your Email" required>
+                      </div>
+              
+                      <div class="form-group row">
+                          <label for="mobile" class="col-form-label text-right col-lg-3 col-md-3 col-sm-3">Mobile No.</label>
+                          <input id="mobile" class="form-control col-lg-6 col-md-6 col-sm-6" type="tel" placeholder="Enter Your Mobile Number">
+                      </div>
+                      
+                      <div class="form-group row">
+                          <label for="subject" class="col-form-label text-right col-lg-3 col-md-3 col-sm-3">Subject*</label>
+                          <input id="subject" class="form-control col-lg-6 col-md-6 col-sm-6" type="text" required>
+                      </div>
+                      
+                      <div class="form-group row">
+                          <label for="message" class="col-form-label text-right col-lg-3 col-md-3 col-sm-3">Your Message*</label>
+                          <textarea id="message" class="form-control col-lg-6 col-md-6 col-sm-6" rows="3" required></textarea>
+                      </div>
+                      
+                      <div class="text-center col-lg-12 col-md-12 col-sm-12">
+                          <input class="btn btn-outline-dark" type="submit" value="Submit">
+                      </div>
+                  </fieldset>
+              </form>  
+          </div>
+      </div>
+      
+      
+
+<!--      Footer-->
+      <div class="container-fluid" id="footer">
+          <div class="container">
+              <div class="row">
+<!--                  footer contact us-->
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                      <h3 class="border-bottom" style="color: silver; font-weight: bold">Contact Us</h3>
+                      <div id="align">
+                          <a class="contact-us" href="https://www.facebook.com/profile.php?id=100007591691986" title="Facebook" target="_blank"><i class="fab fa-facebook contact-links" style="color: #4267B2"></i>
+                          </a>
+                          <a class="contact-us" href="https://wa.me/923412174213" title="Whatsapp" target="_blank"><i class="fab fa-whatsapp contact-links" style="color: green"></i>
+                          </a>
+                          <a class="contact-us" href="https://www.instagram.com/faraz_baig_/" title="Instagram" target="_blank"><i class="fab fa-instagram contact-links" style="color: indianred"></i>
+                          </a>
+                          <a class="contact-us" href="https://twitter.com/FarazBa30914473" title="Twitter" target="_blank"><i class="fab fa-twitter-square contact-links" style="color: #1A91DA"></i>
+                          </a>
+                          <a class="contact-us" href="https://www.google.com/maps/place/Zufi+Computers/@24.8829419,67.1462528,19.86z/data=!4m5!3m4!1s0x3eb3399c5d848b47:0x145ef6d0e2d5abf8!8m2!3d24.8829802!4d67.1462153" title="Location" target="_blank"><i class="fas fa-map-marked-alt contact-links" style="color: firebrick"></i>
+                          </a>
+                          <p>
+                              <i class="fas fa-mobile-alt" style="color: white; width: 20px; height: 20px; margin-top: 15px;" title="Mobile Number"></i><span style="color: silver; font-size: 20px; font-weight: bold;">+92 341 2174213</span>
+                          </p>
+                      </div>
+                  </div>
+                  
+                  <!--                  footer text-->
+                  <div class="col-lg-6 col-md-12 col-sm-12" id="txt-align">
+                  This is a official website of <a class="marq-link" href="index.html">ZULFI COMPUTERS</a>.<br>We do not have any other branch<br>and any other website.
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+<!--      copyright footer-->
+      <div class="container-fluid bg-light">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12" id="copyright">
+                  &copy; Copyright Zulfi Computers, 2020.
+              </div>
+<!--              Developer-->
+              <div class="col-lg-6 col-md-6 col-sm-12" id="developer">
+                  Developed By <a id="shaz-khan" href="https://www.facebook.com/Shahtylish" target="_blank" title="Developer">Shaz Khan</a>
+              </div>
+          </div>
+      </div>
+      
+      
+      
+      
+      
+    
+
+      <!-- Optional JavaScript -->
+      <script src="jquery-3.4.1.min.js"></script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
